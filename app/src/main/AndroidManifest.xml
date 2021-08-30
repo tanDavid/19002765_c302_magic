@@ -13,6 +13,7 @@
         <activity android:name=".MainActivity"/>
         <activity android:name=".CreateCardActivity_19002765"/>
         <activity android:name=".CardActivity_19002765"/>
+        <activity android:name=".BuyActivity"/>
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

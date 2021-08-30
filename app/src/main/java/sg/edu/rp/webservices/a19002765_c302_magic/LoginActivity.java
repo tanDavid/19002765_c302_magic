@@ -74,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                                     editor.commit();
 
 
-                                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                                    Intent i = new Intent(getApplicationContext(), BuyActivity.class);
                                     i.putExtra("role", response.get("role").toString());
                                     startActivity(i);
                                 } else {
